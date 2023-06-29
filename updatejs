@@ -1,0 +1,9 @@
+var boxElement = document.querySelector(.box);
+boxElement.innerHTML = '<h1> new heading</h1>';// output : new heading
+console.log(boxElement.innerHTML);// output <h1> new heading</h1> lấy ra 1 chuỗi kiểu string
+
+# classlist property
++ add()
++ contains();
++ remove()
++ toggle() 
