@@ -9,7 +9,7 @@ Notes
 You may consider that there will not be any empty arrays/vectors.
 
 dịch:
-Nhiệm vụ của bạn là tạo hai hàm ( maxvà min, hoặc maximumvà minimum, v.v., tùy thuộc vào ngôn ngữ ) nhận một danh sách các số nguyên làm đầu vào và trả về số lớn nhất và nhỏ nhất trong danh sách đó, tương ứng.
+Nhiệm vụ của bạn là tạo hai hàm ( max và min, hoặc maximum và minimum, v.v., tùy thuộc vào ngôn ngữ ) nhận một danh sách các số nguyên làm đầu vào và trả về số lớn nhất và nhỏ nhất trong danh sách đó, tương ứng.
 
 Ví dụ (Đầu vào -> Đầu ra)
 * [4,6,2,1,9,63,-134,566]         -> max = 566, min = -134
