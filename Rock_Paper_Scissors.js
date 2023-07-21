@@ -16,6 +16,11 @@ Ví dụ (Đầu vào1, Đầu vào2 -> Đầu ra):
 "scissors", "rock" --> "Player 2 won!"
 "paper", "paper" --> "Draw!"
 code:
+//
+const rps = (p1, p2) => {
+    
+};
+//
 const rps = (p1, p2) => {
     if (p1 === p2) {
       return "Draw!";
