@@ -7,6 +7,14 @@
 // "scissors", "rock" --> "Player 2 won!"
 // "paper", "paper" --> "Draw!"
 
+dịch: oẳn tù tì
+Hãy chơi! Bạn phải trả lại người chơi nào đã thắng! Trong trường hợp hòa trở lại Draw!.
+
+Ví dụ (Đầu vào1, Đầu vào2 -> Đầu ra):
+
+"scissors", "paper" --> "Player 1 won!"
+"scissors", "rock" --> "Player 2 won!"
+"paper", "paper" --> "Draw!"
 code:
 const rps = (p1, p2) => {
     if (p1 === p2) {
