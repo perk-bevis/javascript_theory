@@ -18,6 +18,7 @@ Examples
 25  =>  true
 26  =>  false
 code:
+
 var isSquare = function(n) {
   if (n < 0) {
     return false; // Negative numbers are not perfect squares
