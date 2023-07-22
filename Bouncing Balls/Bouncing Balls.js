@@ -46,6 +46,8 @@ Ví dụ:
 
 (Condition 2) not fulfilled).
 
+
+  
 code:
 function bouncingBall(h, bounce, window) {
   // Check for valid input conditions
