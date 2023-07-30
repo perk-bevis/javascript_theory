@@ -1,6 +1,3 @@
-{
-    "liveServer.settings.port": 5501
-}
 
 edit and delete:
 <!DOCTYPE html>
