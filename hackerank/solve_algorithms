@@ -23,3 +23,26 @@ b = 3
 Sample Output
 
 5
+dịch : Hoàn thành hàm solveMeFirst để tính tổng của hai số nguyên.
+Example:
+a = 7;
+b = 3;
+Return 10.
+Mô tả chức năng
+
+Hoàn thành hàm solveMeFirst trong trình chỉnh sửa bên dưới.
+
+solveMeFirst có các tham số sau:
+INT A: Giá trị đầu tiên
+INT B: Giá trị thứ hai
+Returns
+ int: tổng của a và b
+Constraints
+1 <= a,b <= 1000;
+Sample Input
+
+a = 2
+b = 3
+Sample Output
+
+5
