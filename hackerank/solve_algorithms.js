@@ -47,13 +47,20 @@ Sample Output
 
 5
 code:
+//Dòng này bật chế độ đọc dữ liệu từ luồng nhập chuẩn (stdin).
 process.stdin.resume();
+// Đây là cách thiết lập encoding (bảng mã) cho dữ liệu đọc từ stdin. Trong trường hợp này, encoding được đặt là ASCII.
 process.stdin.setEncoding('ascii');
 
+//Biến này sẽ lưu trữ dữ liệu đọc từ stdin.
 var input_stdin = "";
+
+//Mảng này sẽ lưu trữ dữ liệu đọc từ stdin sau khi đã được chia thành các dòng.
 var input_stdin_array = "";
+//Biến này dùng để theo dõi dòng hiện tại trong mảng dữ liệu.
 var input_currentline = 0;
 
+// Đoạn mã này xử lý sự kiện khi stdin đã được đọc xong. Khi luồng nhập kết thúc, dữ liệu trong input_stdin sẽ được chia thành mảng 
 process.stdin.on('data', function (data) {
     input_stdin += data;
 });
