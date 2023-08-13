@@ -60,12 +60,14 @@ var input_stdin_array = "";
 //Biến này dùng để theo dõi dòng hiện tại trong mảng dữ liệu.
 var input_currentline = 0;
 
-// Đoạn mã này xử lý sự kiện khi stdin đã được đọc xong. Khi luồng nhập kết thúc, dữ liệu trong input_stdin sẽ được chia thành mảng 
+//  Đoạn mã này xử lý sự kiện khi dữ liệu được đọc từ stdin. Mỗi khi dữ liệu mới đến, nó sẽ được nối vào biến input_stdin.
 process.stdin.on('data', function (data) {
     input_stdin += data;
 });
 
+// Đoạn mã này xử lý sự kiện khi stdin đã được đọc xong. Khi luồng nhập kết thúc, dữ liệu trong input_stdin sẽ được chia thành mảng 
 process.stdin.on('end', function () {
+ //bằng cách tách dựa trên ký tự xuống dòng (\n).
     input_stdin_array = input_stdin.split("\n");
     main();    
 });
@@ -73,13 +75,13 @@ process.stdin.on('end', function () {
 function readLine() {
     return input_stdin_array[input_currentline++];
 }
-
+// Đây là hàm được viết để thực hiện phép tính cộng của hai số a và b, sau đó trả về kết quả.
 function solveMeFirst(a, b) {
   // Hint: Type return a+b below   
   return a+b;
 }
 
-
+//Hàm chính của chương trình. Đọc hai giá trị từ stdin, sau đó gọi hàm solveMeFirst để tính tổng và in ra kết quả.
 function main() {
     var a = parseInt(readLine());
     var b = parseInt(readLine());;
