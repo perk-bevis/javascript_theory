@@ -11,3 +11,8 @@ function factorial(array){
   var result = array.reduce(handfactorial, 0);
   return result;
 }
+
+EX3: Đếm số lần xuất hiện của từng phần tử trong mảng:
+
+Bài toán: Cho một mảng các chuỗi hoặc số, hãy sử dụng reduce để đếm số lần xuất hiện của mỗi phần tử.
+Ví dụ: ['apple', 'banana', 'apple', 'orange', 'banana', 'banana'] sẽ cho kết quả { apple: 2, banana: 3, orange: 1 }.
