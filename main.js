@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assest/css/style.css">
+    <link rel="stylesheet" href="/main.js">
+</head>
+<body>
+    <div id="weather">
+        <input type="text" class="search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Ha Noi</span>
+                <span >,</span>
+                <span class="country">VN</span>
+            </h1>
+            <time class=""></time>
+        </div>
+    </div>
+</body>
+</html>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgba(0,0,0 ,0.7),rgba(0,0,0 ,0.1)), url();
+}
+
+#weather{
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background: yellowgreen;
+}
+
+.search{
+    width: 100%;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.7);
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 5px 4px rgba(0,0,0 ,0.2);
+    transition: 0.4s;
+}
+
+.search:focus{
+    background: rgba(255,255,255,0.7);
+    border-radius: 15px 0 15px 0;
+}
+
+.content{
+    text-align: center;
+    color: aliceblue;
+    margin: 40px;
+}
+
+.capital{
+    text-shadow: 2px 2px rgba(0,0,0 ,0.5);
+}
 // khai bao bien
 var fullName ='le quy doan';
 var age = 26;
